@@ -4,7 +4,6 @@ public class TabuadaFormula {
 	
 	private int multiplicando;
 	private int maxMultiplicador;
-	private int contador = 0;
 	
 	public int getMultiplicando() {
 		return multiplicando;
@@ -22,18 +21,8 @@ public class TabuadaFormula {
 		this.maxMultiplicador = maxMultiplicador;
 	}
 	
-	public int getContador() {
-		return contador;
-	}
-	
-	public void setContador(int contador) {
-		this.contador = contador;
-	}
 	
 	public String[] calcular() {
-		
-		System.out.println("TABUADA DO " + multiplicando);
-		System.out.println("------------------");
 		
 		String t [] = new String [maxMultiplicador + 1];
 		
